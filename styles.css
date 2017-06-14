@@ -1,0 +1,6 @@
+.customers {
+    line-height: 4em;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
