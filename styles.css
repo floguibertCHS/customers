@@ -1,6 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+h1,
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+
+}
+h1 {
+    font-size: 4vw;
+}
 .customers {
     line-height: 4em;
-    text-align: center;
     display: flex;
     flex-wrap: wrap;
+    align-content: center; 
+    padding: 10px;
+    
+}
+
+.individual {
+    width: 90%;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 2em;
+} 
+
+img {
+    width: 100%;
+}
+
+h1,
+.name, 
+.email {
+    text-transform: uppercase;
+}
+
+.name {
+    border-bottom: 2px solid green;
+    padding-bottom: 1.5em;
+    font-weight: bold;
+   
+}
+.email {
+    font-size: .75em;
+    font-weight: lighter;
+}
+.address,
+.phone {
+    line-height: 1.5em;
+}
+
+div.id {
+  color: green;
+  filter: blur(2.5px);
+}
+
+
+@media screen and (min-width: 700px) { 
+    .individual {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1000px) { 
+.individual {
+    width: 25%;
+
+    }
 }
